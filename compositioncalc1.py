@@ -13,3 +13,4 @@ for Test in range(65,73):
 	for Num in range (1,13):
 		print chr(Test) + str(Num),
 	print
+test
