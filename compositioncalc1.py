@@ -9,8 +9,7 @@ for Base in BaseList:
 	Percent = 100 * DNASeq.count(Base) / SeqLength
 	print "%s: %4.1f%%" % (Base,Percent)
 	
-for Test in range(65,73):
-	for Num in range (1,13):
-		print chr(Test) + str(Num),
+for Letter in range(65,73):
+	for Number in range (1,13):
+		print chr(Letter) + str(Number),
 	print
-test
